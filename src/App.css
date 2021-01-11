@@ -1,0 +1,37 @@
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.sub-main {
+  width: 80vw !important;
+}
+.formheading {
+  float: right;
+  margin: 30px 20px 0 0;
+  color: #8d8d8d;
+}
+.form-row {
+  margin-top: 20px;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.client-details {
+  padding: 0 !important;
+}
+.client-details .clientDetails-heading {
+  color: grey;
+  border-bottom: 1px solid gray;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.grandTotal-Container {
+  display: flex;
+  justify-content: flex-end;
+}
+button#add_items {
+  margin-left: 6px;
+}
